@@ -3,7 +3,7 @@ package se.iths.pierre;
 public class Main {
     static void main() {
 
-        Car car = new Car("Skoda", "Fabia", 350000);
+        Car car = new Car("Skoda", "Fabia", 355500);
         IO.print(" Bilmärke: " + " " + car.getBrand());
         IO.print(" " + car.getModel());
         IO.print(" " + car.getPrice());
